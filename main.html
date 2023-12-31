@@ -8,12 +8,30 @@
 
 <body>
 	<div id="buttons">
-    <button class="btn" onclick="playSound('applause.mp3')">Applause</button>
-    <button class="btn" onclick="playSound('boo.mp3')">Boo</button>
-    <button class="btn" onclick="playSound('gasp.mp3')">Gasp</button>
-    <button class="btn" onclick="playSound('tada.mp3')">Tada</button>
-    <button class="btn" onclick="playSound('victory.mp3')">Victory</button>
-    <button class="btn" onclick="playSound('wrong.mp3')">Wrong</button>
+    <button class="btn" onclick="playSound('applause.mp3')">
+		Applause
+		<audio id="applauseAudio" src="sounds/applause.mp3"></audio>
+	</button>
+    <button class="btn" onclick="playSound('boo.mp3')">
+		Boo
+		<audio id="booAudio" src="sounds/boo.mp3"></audio>
+	</button>
+    <button class="btn" onclick="playSound('gasp.mp3')">
+		Gasp
+		<audio id="gaspAudio" src="sounds/gasp.mp3"></audio>
+	</button>
+    <button class="btn" onclick="playSound('tada.mp3')">
+		Tada
+		<audio id="tadaAudio" src="sounds/tada.mp3"></audio>
+	</button>
+    <button class="btn" onclick="playSound('victory.mp3')">
+		Victory
+	<audio id="victoryAudio" src="sounds/victory.mp3"></audio>
+	</button>
+    <button class="btn" onclick="playSound('wrong.mp3')">
+		Wrong
+	<audio id="wrongAudio" src="sounds/wrong.mp3"></audio>
+	</button>
     <button class=" btn stop" onclick="stopSound()">Stop</button>
 </div>
 
